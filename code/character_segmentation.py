@@ -85,9 +85,14 @@ def charac_segmentation(image):
 		
 		final_charc[r0:r1,c0:c1] = binary_255
 		rgb_image = color.gray2rgb(final_charc)
+		plt.subplot2grid((3,10),(2,comp))
+		plt.imshow(rgb_image)
+		plt.axis('off')
 		rgb_image = rgb_image.reshape([1,3,28,28])
 
 		#Predict character from CNN
-		license_no = license_no + predict_from_cnn(rgb_image)
+		predicted_char = predict_from_cnn(rgb_image)
+		license_no = license_no + predicted_char
+		plt.title(predicted_char)
 
 	print(license_no)
