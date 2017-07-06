@@ -59,3 +59,11 @@ Run real_time_lpr.py
 2. Threshold segmented character via Otsu's thresholding.
 3. Resize/Crop the character image to 28x28.
 4. Predict the character from already trained CNN. (CNN architecture used: LeNet, Dataset used for training: English Handwritten Characters dataset http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/EnglishHnd.tgz)
+
+
+### Real time LPR
+1. Capture camera stream using opencv.
+2. Use template matching(normalized cross-correlation) to find license plate in the camera feed. 
+3. If the template matches with a value greater than some empirical value(0.5 is selected here), call license plate detection followed by character segmentation and recognition.
+
+
