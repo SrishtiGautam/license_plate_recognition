@@ -25,6 +25,8 @@ Further, following module needs to be installed for real time License plate reco
 Run python license_plate_recognition.py 'image path'
 Example, python license_plate_recognition.py ../data/license\ plate\ images/55.JPG
 
+![alt text](https://github.com/SrishtiGautam/license_plate_recognition/blob/master/example.png)
+
 ### Real time License plate recognoition system
 Run real_time_lpr.py 
 (It will display license plate number as long as a valid license plate comes into the field of view)
