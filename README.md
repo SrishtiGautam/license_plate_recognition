@@ -27,7 +27,7 @@ Example, python license_plate_recognition.py ../data/license\ plate\ images/55.J
 
 ![alt text](https://github.com/SrishtiGautam/license_plate_recognition/blob/master/example.png)
 
-### Real time License plate recognoition system
+### Real time License plate recognition system
 Run real_time_lpr.py 
 (It will display license plate number as long as a valid license plate comes into the field of view)
 
