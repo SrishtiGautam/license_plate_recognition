@@ -58,7 +58,7 @@ Run real_time_lpr.py
 1. Take connected components in segmented image one by one starting from left.
 2. Threshold segmented character via Otsu's thresholding.
 3. Resize/Crop the character image to 28x28.
-4. Predict the character from already trained CNN. (CNN architecture used: LeNet, Dataset used for training: English Handwritten Characters dataset http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/EnglishHnd.tgz)
+4. Predict the character from already trained CNN. (CNN architecture used: LeNet, Dataset used for training: English Handwritten Characters dataset http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/EnglishHnd.tgz, Training accuracy after 50 epochs: 80%, Validation accuracy after 50 epochs: 60%)
 
 
 ### Real time LPR
